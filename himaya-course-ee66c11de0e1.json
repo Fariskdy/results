@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "himaya-course",
+  "private_key_id": "ee66c11de0e14aa1b4c601a5001bc36dd13d0637",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCQpYL0+iqKB7Uj\nJCuafawEArEy7uyw8s3bYcO53IlaS45PdubJx6UR3MaJ1e7Nd34Xir/gjxwCmIKe\n0hMmWCNEss7Sx8PySAW0tUlyHWyWmlmkAtRKIT4lPUlVESs1HLCIHxgR9m4h55vN\nF0bZPUg++cxdgyeqqTUvXBtLIe0qfRk/s7bK3PDy+7cKPP5HMRX6KoVnLEeEkDiV\nYttm/Orzn6JiMils/EZx6o/h6unmD7EocF/Er9GbgOXveANOLiisc1q9jJSRuga1\nwRakQMxZlJUIjTouoEZ9pGNQeXjJ5o0B9RJMqOgS6xfwmSf8OE7Z63RpQ2/d2M2q\nm3Hr0q6tAgMBAAECggEACKQKha3oGqTJOlcvz6PQQdETWtKRCyUGDSPy+EhnYCCB\nWNfmg4lMoBuLNLK1+Eo6GxfrzHNgHfuUWf58rF65hKIV3tuWJgQNazUlNQ7y7LA9\nyKFuoxsHRlw55D4JUbvsA8Wvv2r0O0xFr2PDlLindzOe9LsgBH7lMXYUH1HghBgs\nCPq3eMykcce1Jte2lYvwO1ovxn0DgmX2ErutDT02mwwQ2xslIDl42AKWPdVDuQE7\nkIki5FmMZcG8Ff7Ks9+bXJ03dmPLXc7YXYflfWohvcr6bnoF/MXOZmm3CaF8LUKX\n2vlZpBZEng3FrEFmG/3w882ydL8Mi/zUJepr4bJHtQKBgQDF5dfyJG7BJppBy4nD\nwyCYs7I3DyE+Fs5oTAbDOadfnhtE6bzkVMruAd26mqyIUHGmHWl/noeICzSz5FVS\ndj1RnM5w25WY55zxj9gds8gGQN3Yl5QP3PgpNs/HzNwOsi0sYWO8qAn7EFo5TXX4\nern73506A5xzMKYW2fRbCj1L4wKBgQC7HUI0PH3t/Sa+HkaWsrfmqgfkoVvLBSsg\nFO8J7X8kZNb1W/K8u7FfqhZ+i1iyY2avtYRUgrhbZSHEmV2gYyKFT0u3n7VZERaZ\nA6D6KVHsF8BVbE0HnEeWj1cHtg+6V5/u8XDtL/jKVSCdHXn/vvTQR+FnKPASxpwt\ntb2H/1NALwKBgDHCtIT3cj3xFfKbWl22D9k1vgcoL8Sr+WSyUTT/pz1cxSCT4WJM\ni+ZC490LDX0NNTZ+yMtFMnEb2DmvnWCpyItf8WzhWgFjo8v9zmrRjOc9okrW+mzu\ntBuw45gqw96SINe6+VgzrKbLmtQzzQkY2vEhbihrRgiU3/54+X922KjfAoGAdGV/\nCX+X1rPjpeCviI8kVxjuUAsQTvqoGQzspgBXVwxjq73HAiC/9gKYe5+zTUUIW8VO\nzEOE61W96857r4n7r3HkaBWxefZnWEgpm3SYwYUE4B6+zD0rSz1fpixbHE/l7X3E\nAcgVu8e4wgPUIINpRydvz/xnW0axYL3taOwrnYECgYB1p0splLsv0T+78ItlQ/t+\n9b7tcVN28ro1SukinCvRGlr8JceaojVTqmNvHqkPgwqMxiwwtZFnE/2AS7jgbX1Q\ndfCJfg44/EpseEovXdmkK5Fsg4U1Dn4+I2r4UP55GGiRW2g0zYQPCJHVlnvalv0h\nY4sJDmrP4qvJhMUbeeBIeg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "himaya-exam@himaya-course.iam.gserviceaccount.com",
+  "client_id": "103138916676997989612",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/himaya-exam%40himaya-course.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
