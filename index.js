@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const { google } = require('googleapis');
 const credentials = require('./himaya-course-ee66c11de0e1.json');
-const spreadsheetId = '1PS5V0fvgBZX3pozatru_JVSC9R5FXGhk1kyVf4Hav40'; // Update with your spreadsheet ID
+const spreadsheetId = '1H3v8tQ-INg_p0-CbqGhhbpt7wDhu0UHmCUVSb6nsWN4'; // Update with your spreadsheet ID
 
 // Set up Google Sheets API client
 
@@ -93,6 +93,7 @@ const grtotalValue = values && values[42] && values[42][3] ? values[42][3] : 'N/
 const failsubValue = values && values[44] && values[44][3] ? values[44][3] : 'N/A';
 const passubValue = values && values[44] && values[44][4] ? values[44][4] : 'N/A';
 const gradeValue = values && values[45] && values[45].slice(3, 5).join(' ') ? values[45].slice(3, 5).join(' ') : 'N/A';
+const percentageValue = values && values[38] && values[38].slice(3, 5).join(' ') ? values[38].slice(3, 5).join(' ') : 'N/A';
 const statusValue = values && values[46] && values[46].slice(4, 6).join(' ') ? values[46].slice(4, 6).join(' ') : 'N/A';
 
 const perfailedValue = values && values[39] && values[39].slice(3, 5).join(' ') ? values[39].slice(3, 5).join(' ') : 'N/A';
@@ -100,7 +101,7 @@ const dateValue = values && values[4] && values[4].slice(11, 13).join(' ') ? val
 // Render the EJS template and pass the extracted values
 res.render('index', { name, term, college,admission, qfaValue, hfaValue, ffaValue, tfaValue, qstValue, hstValue, fstValue, tstValue,
   qsaValue, hsaValue, fsaValue, tsaValue, qsastValue, hsastValue, fsastValue, tsastValue, qtoValue, htoValue, ftoValue, ttoValue, qpassValue, hpassValue, fpassValue, tpassValue,
-  tofaValue, tosaValue, totaValue, grtotalValue, failsubValue, passubValue, gradeValue, statusValue, perfailedValue, dateValue
+  tofaValue, tosaValue, totaValue, grtotalValue, failsubValue, passubValue, gradeValue, statusValue, perfailedValue, dateValue, percentageValue
        });
 
         // Process the next request in the queue
@@ -142,8 +143,7 @@ app.post('/submit', async (req, res) => {
   }
 });
 
-const port = process.env.PORT || 3000;
-
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+// Start the server
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
 });
