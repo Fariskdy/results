@@ -93,9 +93,8 @@ const grtotalValue = values && values[42] && values[42][3] ? values[42][3] : 'N/
 const failsubValue = values && values[44] && values[44][3] ? values[44][3] : 'N/A';
 const passubValue = values && values[44] && values[44][4] ? values[44][4] : 'N/A';
 const gradeValue = values && values[45] && values[45].slice(3, 5).join(' ') ? values[45].slice(3, 5).join(' ') : 'N/A';
-const percentageValue = values && values[38] && values[38].slice(3, 5).join(' ') ? values[38].slice(3, 5).join(' ') : 'N/A';
 const statusValue = values && values[46] && values[46].slice(4, 6).join(' ') ? values[46].slice(4, 6).join(' ') : 'N/A';
-
+const percentageValue = values && values[38] && values[38].slice(3, 5).join(' ') ? values[38].slice(3, 5).join(' ') : 'N/A';
 const perfailedValue = values && values[39] && values[39].slice(3, 5).join(' ') ? values[39].slice(3, 5).join(' ') : 'N/A';
 const dateValue = values && values[4] && values[4].slice(11, 13).join(' ') ? values[4].slice(11, 13).join(' ') : 'N/A';
 // Render the EJS template and pass the extracted values
@@ -143,7 +142,8 @@ app.post('/submit', async (req, res) => {
   }
 });
 
-// Start the server
-app.listen(3000, () => {
-  console.log('Server is running on port 3000');
+const port = process.env.PORT || 3000;
+
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
